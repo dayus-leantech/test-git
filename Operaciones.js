@@ -1,5 +1,11 @@
 
+import {multiply} from 'multiply.js' 
+import {restar} from 'Restar.js' 
 import {Sumar} from 'sumar.js' 
 
-console.log(Sumar(4,5));
+
+/* Nada que ver */
+
+console.log(multiply(Sumar(1,2), restar(1,2)))
+
 
