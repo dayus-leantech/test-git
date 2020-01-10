@@ -1,3 +1,3 @@
-const restar = (a, b) => {
-    return a-b;
-}
+const rest = (a, b) => (a > b ? a - b : b - a);
+
+module.exports = { rest };

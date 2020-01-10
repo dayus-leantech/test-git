@@ -1,0 +1,23 @@
+{
+   "name": "test-git",
+   "version": "1.0.0",
+   "description": "",
+   "main": "Operaciones.js",
+   "scripts": {
+      "start": "nodemon operaciones.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dayus-leantech/test-git.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/dayus-leantech/test-git/issues"
+   },
+   "homepage": "https://github.com/dayus-leantech/test-git#readme",
+   "devDependencies": {
+      "nodemon": "^2.0.2"
+   }
+}
