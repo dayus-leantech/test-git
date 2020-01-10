@@ -4,7 +4,7 @@
    "description": "",
    "main": "Operaciones.js",
    "scripts": {
-      "start": "nodemon --exec operaciones.js"
+      "start": "nodemon operaciones.js"
    },
    "repository": {
       "type": "git",

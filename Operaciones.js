@@ -1,6 +1,6 @@
-import { add } from 'sumar';
-import { multiply, square } from 'multiply';
-import { rest } from 'Restar';
+const { add } = require('./sumar');
+const { multiply, square } = require('./multiply');
+const { rest } = require('./Restar');
 
 console.log('add: ', add(1, 4));
 console.log('multiply: ', multiply(4, 7));
