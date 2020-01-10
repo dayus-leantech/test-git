@@ -1,11 +1,8 @@
+import { add } from 'sumar';
+import { multiply, square } from 'multiply';
+import { rest } from 'Restar';
 
-import {multiply} from 'multiply.js' 
-import {restar} from 'Restar.js' 
-import {Sumar} from 'sumar.js' 
-
-
-/* Nada que ver */
-
-console.log(multiply(Sumar(1,2), restar(1,2)))
-
-
+console.log('add: ', add(1, 4));
+console.log('multiply: ', multiply(4, 7));
+console.log('square: ', square(49));
+console.log('rest: ', rest(34, 76));
